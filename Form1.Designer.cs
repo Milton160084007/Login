@@ -19,8 +19,7 @@ namespace Login
             if (auth.Login(txtNombreUsuario.Text, txtClaveAcceso.Text))
             {
                 MessageBox.Show("¡Acceso concedido!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // this.Hide();
-                // new MainForm().Show(); // Descomenta si tienes otro formulario
+
             }
             else
             {
